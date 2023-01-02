@@ -1,0 +1,3139 @@
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Imagesbazaar : Largest Collection of Indian Images and Videos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.jpg"
+      type="image/x-icon">
+      <link rel="stylesheet" href="/stylesheets/result_page.css?v=0.36.6">
+    <link rel='stylesheet' href='/stylesheets/home.css?v=0.63' />
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+    
+    <link rel='stylesheet' href='/stylesheets/home.css?v=0.64' />
+    <link rel="stylesheet" href="/stylesheets/main.css?v=0.15">
+    <link rel="stylesheet" href="/stylesheets/jquery-autocomple.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-N84K9F6');</script>
+  <!-- End Google Tag Manager -->
+  </head>
+<style>
+  .containermain {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  img.maini {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  .maini {
+    height: auto;
+  }
+
+  .bottom-right {
+    position: absolute;
+    top: 65%;
+    right: 5%;
+    left: 53%;
+  }
+
+  .bottom-right a {
+    cursor: pointer;
+  }
+
+  @media (max-width: 1920px) {
+    .bottom-right {
+      left: 56%;
+      right: 5%;
+    }
+  }
+
+  @media (max-width: 1680px) {
+    .bottom-right {
+      left: 57%;
+      right: 5%;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .bottom-right {
+      left: 53%;
+      right: 5%;
+    }
+  }
+
+  @media (max-width: 1160px) {
+    .bottom-right {
+      left: 55%;
+      right: 5%;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .bottom-right {
+      left: 52%;
+      right: 5%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .bottom-right {
+      position: absolute;
+      left: 50%;
+      right: 5%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .bottom-right {
+      position: absolute;
+      bottom: 5px;
+      right: 0px;
+      padding: 0px 10px 0px 10px;
+    }
+
+    .bottom-right a {
+      font-size: 15px;
+    }
+
+    /* .maini {
+      height: 150px;
+      ;
+    } */
+  }
+
+  @media (max-width: 411px) {
+    .bottom-right {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      padding: 0px 35px 0px 35px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .bottom-right {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      padding: 0px 15px 0px 15px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .bottom-right {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      padding: 0px 10px 0px 10px;
+    }
+  }
+
+  .spancon {
+    padding: 5px;
+  }
+
+  .spancon:hover {
+    color: #000 !important;
+    background: #fff;
+  }
+</style>
+
+<body ng-app="appIndex" ng-controller="myControllerIndex">
+  <link href="/stylesheets/menu/custom.css?v=1.3.9" rel="stylesheet">
+
+<div class="zeynep">
+    <div class="btn-open2">X</div>
+    <ul>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(651,'Recently Added Images')">
+            <a href="javascript:void(0)" data-submenu="stores">Recently Added Images</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(18,'Lifestyle: Children')">
+            <a href="javascript:void(0)" data-submenu="stores">Lifestyle: Children</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(19,'Lifestyle: Teenagers')">
+            <a href="javascript:void(0)" data-submenu="stores">Lifestyle: Teenagers</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(20,'Lifestyle: Adults')">
+            <a href="javascript:void(0)" data-submenu="stores">Lifestyle: Adults</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(241,'Lifestyle: Couples')">
+            <a href="javascript:void(0)" data-submenu="stores">Lifestyle: Couples</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(24,'Lifestyle: Families')">
+            <a href="javascript:void(0)" data-submenu="stores">Lifestyle: Families</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(21,'Lifestyle: Seniors')">
+            <a href="javascript:void(0)" data-submenu="stores">Lifestyle: Seniors</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(25,'Business &amp; Corporate')">
+            <a href="javascript:void(0)" data-submenu="stores">Business &amp; Corporate</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(29,'Concepts &amp; Ideas')">
+            <a href="javascript:void(0)" data-submenu="stores">Concepts &amp; Ideas</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(584,'Beauty &amp; Fashion')">
+            <a href="javascript:void(0)" data-submenu="stores">Beauty &amp; Fashion</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(127,'Health &amp; Fitness')">
+            <a href="javascript:void(0)" data-submenu="stores">Health &amp; Fitness</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(31,'Education &amp; Learning')">
+            <a href="javascript:void(0)" data-submenu="stores">Education &amp; Learning</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(22,'Festivals &amp; Occasions')">
+            <a href="javascript:void(0)" data-submenu="stores">Festivals &amp; Occasions</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(28,'Food &amp; Drink')">
+            <a href="javascript:void(0)" data-submenu="stores">Food &amp; Drink</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(129,'Indian Culture')">
+            <a href="javascript:void(0)" data-submenu="stores">Indian Culture</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(558,'Rural India')">
+            <a href="javascript:void(0)" data-submenu="stores">Rural India</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(131,'Sports &amp; Leisure')">
+            <a href="javascript:void(0)" data-submenu="stores">Sports &amp; Leisure</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(132,'Technology')">
+            <a href="javascript:void(0)" data-submenu="stores">Technology</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(133,'Vacations &amp; Holidays')">
+            <a href="javascript:void(0)" data-submenu="stores">Vacations &amp; Holidays</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(215,'Shopping &amp; Retail')">
+            <a href="javascript:void(0)" data-submenu="stores">Shopping &amp; Retail</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(1513,'Nature &amp; Landscapes')">
+            <a href="javascript:void(0)" data-submenu="stores">Nature &amp; Landscapes</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+        <li id="hasSubMenu" class="has-submenu" ng-click="getSubCategory(1454,'Without People Concepts')">
+            <a href="javascript:void(0)" data-submenu="stores">Without People Concepts</a>
+            <div id="stores" class="submenu">
+                <div class="submenu-header" data-submenu-close="stores">
+                    <a href="#">MAIN MENU</a>
+                </div>
+                <label ng-click="getSubCategory1()" ng-bind="catMain"></label>
+                <ul ng-click="getSubCategory1()">
+                    <li ng-repeat="catitem in SubCategory">
+                        <a
+                            href="/advancesearchresultarchive/{{catitem.searchid}}/{{catitem.sno}}/{{catitem.refid}}/0/0/0/0/0/0/0/0/0">
+                            {{catitem.catname}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        
+    </ul>
+</div>
+<div class="zeynep-overlay"></div>
+
+<header id="mainHeader">
+    <section class="menu1 menu horizontal-menu cid-rgVq9otPo6" id="menu01-0">
+        <!-- <div class="menu-wrapper"> -->
+        <nav class="navbar navbar-dropdown navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class=" col-sm-4 col-md-4 col-lg-4 col-xs-1">
+
+                        <div class="Cate_GoriEs btn-open" onclick="openNav()">&#9776;<b class="hidden-xs"> BROWSE
+                                CATEGORIES</b>
+
+                        </div>
+
+                    </div>
+
+                    <!-- SHOW LOGO -->
+                    <div class=" col-sm-4 col-md-4 col-lg-4 col-xs-5 paddIng_Cls">
+                        <div class="Logo_Img">
+                            <div class="navbar-logo">
+                                <a href="/">
+                                    <img src="/images/logo svg.svg" layout="responsive" width="100%" alt="image"
+                                        class="placeholder-loader" height="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-sm-4 col-md-4 col-lg-4 col-xs-6" style="padding-left:0px;">
+                        <div class="topnav" id="myTopnav">
+                            <a href="/ImageVideoSubscription">Pricing</a>
+
+                            <span style="display: none;" id="shoppingAction">
+                                <a ng-click="onWishlist()" style="cursor: pointer;" id="wishlistIcon">
+                                    <i class="fa fa-heart"><span class="badge" id="wishlistitem">
+                                            <span ng-bind="lightboxLength"></span>
+                                        </span>
+                                    </i>
+                                </a>
+
+                                <a ng-click="onShoppingcart()" style="cursor: pointer;" class=""><i
+                                        class="fa fa-shopping-cart"><span class="badge" id="shopcart"><span
+                                                ng-bind="shopLength"></span></span></i></a>
+                            </span>
+
+                            <a ng-show="firstname==null || firstname==''" href="/ibregistration"
+                                style="border:1px solid #fff;cursor: pointer;" class=""> <span
+                                    ng-bind="SignIn"></span></a>
+                            <ul>
+                                <li class="Top_Namep" ng-if="firstname  != null">
+                                    <a href="/myaccounts" ng-if="firstname != null" class="Overflow_Cls hidden-xs"
+                                        style="white-space: nowrap;color:#fff;overflow: hidden;
+                                  text-overflow: ellipsis;max-width: 18ch;"> <span ng-bind="firstname"></span> <span
+                                            ng-bind="lastname"></span>
+                                    </a>
+                                    <a ng-if="firstname  != null" class="Mobile_Res12"><i class="fa fa-user"></i></a>
+                                    <ul class="dropdown">
+                                        <li><a href="/myaccounts">My Account</a></li>
+                                        <li><a href="/searchtips">Search Tips</a></li>
+                                        <li><a href="/ordering">Ordering</a></li>
+                                        <li><a href="/downloading">Downloading</a></li>
+                                        <li><a href="/licensing">Licensing</a></li>
+                                        <li><a href="/technical">Technical</a></li>
+                                        <li><a href="/contactus">Contact Us</a></li>
+                                        <li><a ng-if="firstname != null" ng-click="logout()" style="cursor: pointer;"
+                                                class="">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <i class="Hidden_Dsk fa fa fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="header1 cid-rhcQoyVnsB" id="header05-b">
+        <div class="container-fluid">
+            <div class="row align-center">
+                <div class="title-block col-sm-12 col-md-12 col-lg-12">
+
+                    <div class="header-search__container combo-bar focused" id="search1">
+
+                        <div class="header-search__main-area">
+
+                            <form ng-submit="getResultBySubmit()" method="GET"
+                                style="width:46%;display:block !important;">
+                                <span class="animation-normal fa-search fa" ng-click="SearchByClick()"
+                                    style="position:absolute;"></span>
+                                <input autocomplete="off" style="width: 75%; padding-left: 50px !important;"
+                                    class="header-search__input Large hidden-xs phrase ng-pristine ng-valid ng-touched"
+                                    gi-track="track.ui-element.search-bar-default"   gi-track-event="keydown"
+                                    gi-track-key-code="13"  id="txtsearch1"
+                                    placeholder="Search the world's largest collection of Indian images"  
+                                    type="text">
+                                <!-- <input type="text" id="friend_id" name="friend[id]" class="form-control"> -->
+                            </form>
+                            <input autocomplete="off"
+                                class="header-search__input Small phrase ng-pristine ng-valid ng-touched"
+                                gi-track="track.ui-element.search-bar-default" gi-track-event="keydown"
+                                gi-track-key-code="13" ng-model="searchBoxValue"
+                                placeholder="Search the world's largest collection of Indian images" type="text"
+                                value="">
+                        </div>
+                        <div class="header-search__media-filter media-types">
+                            <div class="header-search__selected-label media-types-selection">
+                                <div class="dropdown">
+                                    <span class="dropdown-toggle" type="button" data-toggle="dropdown" id="drpdwnTxt">
+                                        Images
+                                        <span class="fa fa-angle-down"></span>
+                                    </span>
+                                    <ul class="dropdown-menu">
+                                        <!-- <select>
+                                                  <option>Images</option>
+                                                  <option>Images</option>
+                                              </select> -->
+                                        <li><a href="javascript:void(0)" ng-click="ImgageSelected('Images')">Images</a>
+                                        </li>
+                                        <li><a href="javascript:void(0)" ng-click="ImgageSelected('Videos')">Videos</a>
+                                        </li>
+                                        <input type="hidden" id="txt_searchib" name="txt_searchib" value="0" />
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="New_VersionT" style="display: none;">
+                        <a href="javascript:void(0)" ng-click="Redrectold()" style="cursor: pointer;">Switch to the Old
+                            Version <img src="/images/a2.png"></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+  <link rel='stylesheet' href='/stylesheets/popcsslogin.css' />
+  <section class="features3 cid-rgVqDuLwTz" id="features09-5">
+    <div class="containermain" style="cursor: pointer;">
+      <!-- <img src="https://www.imagesbazaar.com/BannerImages/Freebanner.jpg" class="maini" ng-click="onBannerImg()"
+        width="100%" height="100%;"
+        style="background-size: cover; background-attachment: fixed; background-repeat: no-repeat;"> -->
+      <!-- <img src="https://www.imagesbazaar.com/BannerImages/Freebanner.jpg" class="maini" ng-click="onBannerImg()"
+        width="100%" height="100%;"
+        style="background-size: cover; background-attachment: fixed; background-repeat: no-repeat;"> -->
+
+    </div>
+    <div class="container-fluid">
+      <!-- <div class="mbr-row">
+
+       
+       
+
+
+      </div> -->
+      <div class="mbr-row" style="padding-left:2px;padding-right:2px;">
+
+        <!-- ----------------------Start 12 Images ------------------------- -->
+
+        <div class="NewSearch_Relate">
+          <div class="Wrong_KeyWord ng-scope" id="recomondedViewImages"
+            style="margin-bottom:20px;color: white;display:none;margin-left: 3px;margin-top: 20px">
+            Images You May Like
+            <i class="fa fa-angle-double-right"></i>
+            <span style="float:right;"></span></div>
+          <div class="card-columns gallery grid" id=" ">
+            <div class=" card productItemLarge280 {{item.imgType}}"
+              ng-repeat="(index,item) in AllSearchRecordFinal4 track by $index">
+              <input type="hidden" class="valuegetcls" id="txt_{{index}}" name="txt_{{index}}>"
+                value="{{index}}-{{item.groupId}}-{{item.imgName}}-{{item.imgFsno}}-{{item.imgRank}}-{{item.modelid}}-{{AllSearchRecordFinal4.length}}-{{item.imgType}}" />
+              <span class="zoom"><a class="card-img-top galleryItem action-tooltip" id="zimg{{index}}"
+                  style="cursor:pointer;">
+                  <i class="fa fa-search-plus" id="zimg{{index}}" aria-hidden="true" title="Preview"></i>
+                  <div class="action-tooltip__container8"><span>Preview</span></div>
+                </a></span>
+              <i class="{{item.f_Orientation}}"></i>
+              <a>
+                <img class="card-img-top" id="img{{index}}"
+                  ng-click="onNavigate(item.imgName,index,item.groupId,item.imgRank,item.imgType)"
+                  ng-src="https://d3nn873nee648n.cloudfront.net/900x600/{{item.groupId}}/{{item.imgRank}}-{{item.imgName}}.jpg">
+              </a>
+              <div class="productMinDetails" style="cursor: default;">
+                <div class="rightEntry">
+                  <a style="cursor: pointer;" class="action-tooltip" tooltip='Add to Cart'
+                    ng-click="gotoPricing(item.imgFsno)"><i class="fa fa-shopping-cart" data-toggle="modal"
+                      data-target="{{adddtitm}}" title="Add to Cart"></i>
+
+                  </a>
+
+                  <span ng-if="(email!=null && email!='bindu@imagesbazaar.com' )">
+                    <a>
+                      <a class="action-tooltip" tooltip="Add to Lightbox" ng-click="Get_imglisgtUser(index,0)"
+                        style="cursor: pointer;"><i class="fa fa-heart" title="Add to Lightbox" data-toggle="modal"
+                          data-target="#myModallightbox_other"></i>
+
+                      </a>
+                    </a>
+                  </span>
+                  <span ng-if="email=='bindu@imagesbazaar.com'">
+                    <a>
+                      <a class="action-tooltip" tooltip="Add to Lightbox" data-toggle="modal"
+                        data-target="#myModallightbox" ng-click="Get_imglisgt(item.group'-'item.rank'-'item.imgName)"
+                        style="cursor: pointer;"><i class="fa fa-heart" title="Add to Lightbox" data-toggle="modal"
+                          data-target="#myModallightboxlogin"></i>
+
+                      </a>
+                    </a>
+                  </span>
+                  <span ng-if="email==null">
+                    <a>
+                      <a class="action-tooltip" tooltip="Add to Lightbox" ng-click="Get_imglisgtUser(index,0)"
+                        style="cursor: pointer;"><i class="fa fa-heart" title="Add to Lightbox" data-toggle="modal"
+                          data-target="#myModalAddtoCart"></i>
+
+                      </a>
+                    </a>
+                  </span>
+                  <a class="card-img-top  action-tooltip"
+                    ng-click="onNavigate(item.imgName,index,item.groupId,item.imgRank,item.imgType)" id="{{index}}"
+                    style="cursor:pointer;" tooltip="More Info">
+                    <i class="fa fa-info" id="img{{index}}" aria-hidden="true"></i>
+
+                  </a>
+                  <a id="modl_lightbx" data-toggle="modal" data-target="#myModallightbox"></a>
+                </div>
+                <div class="lastEntry">
+                  <a class="action-tooltip" style="cursor: pointer" tooltip="Entire Shoot"
+                    href="/advanceresultsearch1/24/{{item.groupId}}/0/0/0"><i class="fa fa-camera"></i>
+
+                  </a>
+                  <a class="action-tooltip" style="cursor: pointer"
+                    href="/advancesearchresultViewsimilar/{{item.imgName}}/{{item.imgName}}/0/0/0/0/0/0/0/0/0"
+                    tooltip="Similar Images"><i class="fa fa-th-large"></i>
+
+                  </a>
+
+                  <a class="action-tooltip downloadcls" title="Download" id="hg-pichref{{index}}"
+                    style="cursor:pointer;" tooltip="Download">
+                    <i class="fa fa-download" aria-hidden="true">
+
+                    </i>
+                  </a>
+
+                  <a id="modl_lightbx" data-toggle="modal" data-target="#myModallightbox"></a>
+                </div>
+                <div class="Middle_Entry">
+                  <a class="view">{{item.imgName}}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- ----------------------END 12 Images ------------------------- -->
+
+
+        <button style="display:none; " type="button" id="myModalcartlogin_btn" data-toggle="modal"
+          data-target="#myModalAddtoCart"></button>
+        <button type="button" style="display:none;" ng-click="Get_imglisgt('0')" id="btn_ck"></button>
+        <button style="display:none; " type="button" id="myModallightbox_btn" data-toggle="modal"
+          data-target="#myModallightbox"></button>
+        <button style="display:none; " type="button" id="myModallightboxlogin_btn" data-toggle="modal"
+          data-target="#myModallightboxlogin"></button>
+
+        <button style="display:none;" type="button" id="myModallightbox_btnother" data-toggle="modal"
+          data-target="#myModallightbox_other"></button>
+
+
+        <button style="display:none; " type="button" id="myModalDownloadLogin_btn" data-toggle="modal"
+          data-target="#myModalDownloadAfterLogin" ng-click="GetImageList()"></button>
+        <button style="display:none; " type="button" id="myModalDownload_btn" data-toggle="modal"
+          data-target="#myModalAddtoCart"></button>
+      </div>
+      <div class="mbr-row">
+        <div class="NewSearch_Relate">
+          <div class="Wrong_KeyWord ng-scope" id="recomondedViewImages"
+            style="margin-bottom:20px;padding-left:5px;color: white;margin-top:15px;">
+            Popular Categories <i class="fa fa-angle-double-right"></i><span style="float:right;">
+            </span></div>
+        </div>
+      </div>
+      <div class="mbr-row">
+        <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
+          <div class="card-wrapper card1 mbr-column">
+
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/creative/668/29/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Concept-and-Ideas.jpg" layout="responsive"
+                  width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Concepts & Ideas ></h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/family/665/24/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Lifestyle-Families.jpg" layout="responsive"
+                  width="305.60136674259684" height="307" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Lifestyle: Families >
+                  </h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/kids%20only/658/18/0/0/0/0/View%20All/0/0/0/0">
+                <img src="https://d3nn873nee648n.cloudfront.net/HomeImages/Lifestyle-Children.jpg" layout="responsive"
+                  width="305.60136674259684" height="307" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Lifestyle: Children ></h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresult/banking%20finance/banking%20and%20finance/0/0/0/0/0/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Banking-and-Finance.jpg" layout="responsive"
+                  width="305.60136674259684" height="307" alt="image" class="placeholder-loader">
+
+
+
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Banking & Finance ></h4>
+
+
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/shopping/677/215/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Shopping-and-Retail.jpg" layout="responsive"
+                  width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Shopping & Retail ></h4>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/Teenagers%20Only/661/19/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Lifestyle-Teenagers.jpg" layout="responsive"
+                  width="305.60136674259684" height="307" alt="image" class="placeholder-loader">
+
+
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Lifestyle: Teenagers >
+                  </h4>
+                </div>
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!--row2-->
+        <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
+          <div class="card-wrapper card1 mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/seniors/663/21/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Lifestyle-Seniors.jpg" layout="responsive"
+                  width="305.60136674259684" height="307" alt="image" class="placeholder-loader">
+
+
+
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Lifestyle: Seniors ></h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/vacations/676/133/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Vacation-and-Holidays.jpg"
+                  layout="responsive" width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+
+
+
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Vacations & Holidays ></h4>
+
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/Nobody/1455/1454/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Without-People.jpg" layout="responsive"
+                  width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Without People ></h4>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresult/wedding/wedding/0/0/0/0/0/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Wedding.jpg" layout="responsive"
+                  width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Wedding >
+                  </h4>
+
+
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresult/medical/medical/0/0/0/0/0/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Healthcare-and-Medical.jpg"
+                  layout="responsive" width="305.60136674259684" height="307" alt="image" class="placeholder-loader">
+
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Healthcare & Medical ></h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/indian%20culture/672/129/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Indian-Culture.jpg" layout="responsive"
+                  width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Indian Culture ></h4>
+
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresult/fashion/fashion/0/0/0/0/0/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Fashion71.jpg" layout="responsive"
+                  width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Fashion ></h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--row 3-->
+
+        <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
+          <div class="card-wrapper card1 mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresult/beauty/beauty/0/0/0/0/0/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Beauty.jpg" layout="responsive"
+                  width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Beauty ></h4>
+
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresult/Fitness/Fitness/0/0/0/0/0/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Fitness.jpg" layout="responsive"
+                  width="305.60136674259684" height="307" alt="image" class="placeholder-loader">
+
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Fitness ></h4>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/lifestyle%20adults%20only/662/20/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Lifestyle-Adult.jpg" layout="responsive"
+                  width="305.60136674259684" height="307" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Lifestyle: Adults ></h4>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/occasion/664/22/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Festivals-and-Occasions.jpg"
+                  layout="responsive" width="305.60136674259684" height="307" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Festivals & Occasions >
+                  </h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/Learning/669/31/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Education-and-Learning.jpg"
+                  layout="responsive" width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Education & Learning ></h4>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/food/667/28/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Food-and-Drink1.jpg" layout="responsive"
+                  width="305.60136674259684" height="307" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Food & Drink ></h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--row 4-->
+
+        <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb">
+          <div class="card-wrapper card1 mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/business/666/25/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Business-and-Corporate.jpg"
+                  layout="responsive" width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Business & Corporate >
+                  </h4>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresult/friends/friends/0/0/0/0/0/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Friends.jpg" layout="responsive"
+                  width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+
+
+
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Friends ></h4>
+
+
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/rural/679/558/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Rural-India.jpg" layout="responsive"
+                  width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Rural India > </h4>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/nature/1514/1513/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Nature.jpg" layout="responsive"
+                  width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Nature >
+                  </h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-wrapper m-top mbr-column">
+            <div class="card-img gallery-img-wrap mbr-flex">
+              <a href="/advancesearchresultarchive/couples/678/241/0/0/0/0/View%20All/0/0/0/0">
+                <img src=" https://d3nn873nee648n.cloudfront.net/HomeImages/Lifestyle-Couple1.jpg" layout="responsive"
+                  width="600.07547169811323" height="600" alt="image" class="placeholder-loader">
+                <div class="card-box mbr-m-auto mbr-pt-2 align-center mbr-pb-3 mbr-pt-3 mbr-px-4">
+                  <h4 class="card-subtitle mbr-fonts-style mbr-gray display-9">Lifestyle: Couples ></h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade Whishlist_Modal" id="myModalAddtoCart" role="dialog">
+    <div class="modal-dialog">
+
+      <form name="insert" method="post" ng-submit="onIbLogin()" novalidate enctype="multipart/form-data">
+        <!-- Modal content-->
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" id="close_loginc" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Sign in</h4>
+          </div>
+          <hr>
+          <div class="modal-body">
+            <div class="alert alert-danger text-center" id="errorMsg" ng-if="errorMsg==true"><b class="text-black">Email
+                or Password don't
+                match!</b></div>
+            <div class="alert alert-danger text-center" style="display: none" id="errorMsg1"><b
+                class="text-black">You're blocked for 10 mins</b></div>
+            <div class="form-group">
+              <label for="usr">Your Email Address</label>
+              <input type="email" class="form-control" name="loginEmailcart" id="loginEmailcart"
+                ng-model="loginEmailcart" placeholder="Enter Email" required>
+
+              <div class="" style="color:red"><span
+                  ng-show="(insert.loginEmailcart.$dirty || insert.$submitted) && insert.loginEmailcart.$invalid">Email
+                  must be a valid email address</span></div>
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" name="loginPasswordcart" id="loginPasswordcart"
+                ng-model="loginPasswordcart" placeholder="Enter Password" required>
+              <div class="" style="color:red"><span
+                  ng-show="(insert.loginPasswordcart.$dirty || insert.$submitted) && insert.loginPasswordcart.$invalid">Password
+                  is required</span></div>
+            </div>
+            <input i class="btn" id="login-submitc" name="login-submitd" type="submit" value="Sign in">
+
+            <p><a href="/forgetPassword">Forgot your password?</a></p>
+          </div>
+          <hr>
+          <div class="modal-footer">
+            <p>Don't have a free account yet?</p>
+            <input class="btn btn-default" id="login_creatc" name="login_creat" ng-click="CreatactPricing()"
+              value="Create Account ">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- For Login light box The Modal -->
+
+  <div class="modal fade AfterSignIn New_LightBox" id="myModallightbox" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" (click)="Lightboxmodehide()" data-dismiss="modal">&times;</button>
+
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <div class="alert alert-success text-center" id="succ" ng-if="error=='succ'"><b>The image
+                  has been added to
+                  your lightbox..</b></div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <div class="alert alert-danger text-center" id="exist" ng-if="error=='exist'"><b>This Image
+                  Already Exists
+                  in your Wishlist!</b></div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <div class="alert alert-danger text-center" id="folderselect" ng-if="error=='folderselect'">
+                <b>Please Select
+                  image For add to Wishlist...
+                </b></div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <div class="alert alert-danger text-center" id="lightboxexist" ng-if="error=='lightboxexist'"><b> Wishlist
+                  name already exists...
+                </b></div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <div class="alert alert-danger text-center" id="lightboxname" ng-if="error=='lightboxname'">
+                <b> Please Enter
+                  Wishlist Name...
+                </b></div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-5 col-sm-5 col-xs-12">
+              <h4 class="modal-title">Wishlist</h4>
+              <div class="MoDal_Img " ng-if="setRank ==1">
+                <img ng-src="https://d3nn873nee648n.cloudfront.net/900x600/{{groupid}}/{{rank}}-{{imgname}}.jpg"
+                  style="width:55%" />
+                <p>ID : {{imgname}}</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12" id="Save_Folder">
+              <h4 class="modal-title">Choose Your Folder</h4>
+              <p>Select form the available folder & add this iamge</p>
+              <ul>
+                <li ng-repeat="item in lightboxlist">
+                  <a style="text-decoration:none;cursor:pointer;color: #000;"
+                    ng-click="Savelightbox(item.lightboxid)">{{item.lightboxname}}({{item.countimages}})</a>
+                  &nbsp;&nbsp;&nbsp;<a target="_blank" href="/lightboxview/{{item.lightboxid}}/0"
+                    style="text-decoration:none;cursor:pointer;" ng-if="item.countimages!=0">Add</a>
+                </li>
+              </ul>
+              <div class="form-group">
+                <label for="sel1">Create new wishlist Folder</label>
+                <input type="submit" id="btn_submitsv" name="btn_submitsv" ng-click="Savelightboxbtn('0')"
+                  class="btn btn-default" value="Save">
+                <form ng-submit="Savelightboxbtn('0')">
+                  <input type="text" class="form-control" id="txt_lightboxname" name="txt_lightboxname" max="200"
+                    autofocus>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade AfterSignIn" id="myModalDownloadAfterLogin" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <img style="margin-left: 134px;margin-top: 0px;width: 225px;height: 30px; display: none;" id="imgloader_dwld"
+          src="/images/loader2.gif" />
+        <div class="modal-header modalActive" style="display: none;">
+
+          <button type="button" class="close" id="close_login1" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-left">Please select your pack</h4>
+        </div>
+        <div class="modal-body modalActive" style="display: none;">
+          <!-- <div class="row">
+                          <table class="table table-responsive table-hovor table-bordered table-stripped text-center">
+                              <thead>
+                                  <tr>
+                                      <th class="text-center">Select</th>
+                                      <th class="text-center">Package</th>
+                                      <th class="text-center">Remaining</th>
+                                      <th class="text-center">Client/Designated End User *</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr ng-repeat="download in ImageListRecord">
+                                      <td><input name="radiobox" id="{{download.f_planID}}"
+                                              ng-click="SetDownloadvl(download.f_planID,download.f_orderid)" type="radio"
+                                              class="rdclick">
+                                      </td>
+                                      <td ng-class="download.f_size === 'L' ? 'largedown' : 'smalldown'">
+                                          {{download.f_plantypenew}}</td>
+                                      <td>{{download.f_RemainingImage}}/{{download.f_totimg}}</td>
+                                      <td ng-class="download.f_size === 'L' ? 'largedown' : 'smalldown'">
+                                          {{download.clientnm}}<br />
+                                          <input type="text" placeholder="client name *" class="form-control"
+                                              id="clnt_name" />
+                                      </td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                          <input type="hidden" id="txt_rdplanid" name="txt_rdplanid" />
+                          <input type="hidden" id="txt_orderid" name="txt_orderid" />
+                      </div> -->
+
+          <div class="row">
+            <table class="table table-responsive table-hovor table-bordered table-stripped text-center">
+              <thead>
+                <tr>
+                  <th class="text-center">Select</th>
+                  <th class="text-center">Package</th>
+                  <th class="text-center">Remaining</th>
+                  <th class="text-center">Client</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="download in ImageListRecord">
+                  <td><input name="radiobox" id="{{download.f_planID}}"
+                      ng-click="SetDownloadvl(download.f_planID,download.f_orderid)" type="radio" class="rdclick">
+                  </td>
+                  <td ng-class="download.f_size === 'L' ? 'largedown' : 'smalldown'">
+                    {{download.f_plantypenew}}</td>
+                  <td>{{download.f_RemainingImage}}/{{download.f_totimg}}</td>
+                  <td ng-class="download.f_size === 'L' ? 'largedown' : 'smalldown'">{{download.clientnm}}</td>
+                </tr>
+
+              </tbody>
+
+            </table>
+            Client/Designated End User * : <input type="text" placeholder=" " value="{{ImageListRecord[0].clientnm}}"
+              class=" " style="width: 58%;   height: 35px;border: 1px solid #ddd" id="clnt_name" />
+            <input type="hidden" id="txt_rdplanid" name="txt_rdplanid" />
+            <input type="hidden" id="txt_orderid" name="txt_orderid" />
+          </div>
+        </div>
+        <div class="modal-footer modalActive" style="display: none;">
+          <button class="btn btn-success" id="btn_submitdwld" ng-click="DownloadImagepack()">Download <i
+              class="fa fa-download"></i> </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="modal fade AfterSignIn New_LightBox" id="myModallightbox_other" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" id="wishlistClose" (click)="Lightboxmodehide()"
+            data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <h4 class="modal-title">Wishlist</h4>
+              <div class="MoDal_Img ">
+                <img ng-src="https://d3nn873nee648n.cloudfront.net/900x600/{{groupid}}/{{rank}}-{{imgname}}.jpg"
+                  style="width:55%" />
+                <p>ID : {{imgname}}</p>
+                <div class="Already-exit">
+                  <div class=" text-danger text-center" id="exist" ng-if="error=='exist'"><b>This
+                      Image
+                      Already Exists
+                      in your Wishlist!</b></div>
+                  <div class="text-success text-center" id="exist" ng-if="error=='succ'"><b>This Image
+                      added
+                      in your Wishlist!</b></div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12" id="Save_Folder1">
+              <ul>
+                <li>
+                  <a> </a>
+                  &nbsp;&nbsp;&nbsp;<a target="_blank" href="/lightboxview/{{getlightboxid}}/0?{{x}}"
+                    ng-if="item.countimages!=0">View all Wishlist</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <input type="hidden" id="txt_crtimgid1" name="txt_crtimgid1" />
+  <input type="hidden" id="txt_crtimgid" name="txt_crtimgid" />
+  <input type="hidden" id="txt_newimgid" name="txt_newimgid" />
+  <section class="title1 cid-rgVr6nrTA4" id="title02-7">
+
+    <!--Block parameters controls (Blue "Gear" panel) -->
+
+    <div class="container-fluid">
+      <div class="title align-center">
+        <h3 class="mbr-section-title mbr-fonts-style mbr-semibold display-2">Popular Searches</h3>
+
+        <div class=" text-center" id="Recent_Searches">
+          <ul class="tag-list">
+            <li>
+              <a href="advancesearchresult/Family/Family/0/0/0/0/0/0/0/0/0" id="ember5771"
+                class="pill text-capitalize ember-view">Family</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Diwali/Diwali/0/0/0/0/0/0/0/0/0" id="ember5772"
+                class="pill text-capitalize ember-view">Diwali</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Business/Business/0/0/0/0/0/0/0/0/0" id="ember5773"
+                class="pill text-capitalize ember-view">Business</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/jewellery/jewellery/0/0/0/0/0/0/0/0/0" id="ember5774"
+                class="pill text-capitalize ember-view">Jewellery</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Couples/Couples/0/0/0/0/0/0/0/0/0" id="ember5775"
+                class="pill text-capitalize ember-view">Couples</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Wedding/Wedding/0/0/0/0/0/0/0/0/0" id="ember5776"
+                class="pill text-capitalize ember-view">Wedding</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Festivals/Festivals/0/0/0/0/0/0/0/0/0" id="ember5777"
+                class="pill text-capitalize ember-view">Festivals</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Growth/Growth/0/0/0/0/0/0/0/0/0" id="ember5778"
+                class="pill text-capitalize ember-view">Growth</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Money/Money/0/0/0/0/0/0/0/0/0" id="ember5779"
+                class="pill text-capitalize ember-view">Money</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Farmer/Farmer/0/0/0/0/0/0/0/0/0" id="ember5780"
+                class="pill text-capitalize ember-view">Farmer</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Kitchen/Kitchen/0/0/0/0/0/0/0/0/0" id="ember5781"
+                class="pill text-capitalize ember-view">Kitchen</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Doctor/Doctor/0/0/0/0/0/0/0/0/0" id="ember5782"
+                class="pill text-capitalize ember-view">Doctor</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Celebration/Celebration/0/0/0/0/0/0/0/0/0" id="ember5783"
+                class="pill text-capitalize ember-view">Celebration</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Office/Office/0/0/0/0/0/0/0/0/0" id="ember5784"
+                class="pill text-capitalize ember-view">Office</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Travel/Travel/0/0/0/0/0/0/0/0/0" id="ember5785"
+                class="pill text-capitalize ember-view">Travel</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Shopping/Shopping/0/0/0/0/0/0/0/0/0" id="ember5786"
+                class="pill text-capitalize ember-view">Shopping</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Education/Education/0/0/0/0/0/0/0/0/0" id="ember5787"
+                class="pill text-capitalize ember-view">Education</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Students/Students/0/0/0/0/0/0/0/0/0" id="ember5788"
+                class="pill text-capitalize ember-view">Students</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Insurance/Insurance/0/0/0/0/0/0/0/0/0" id="ember5774"
+                class="pill text-capitalize ember-view">Insurance</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Mobile/Mobile/0/0/0/0/0/0/0/0/0" id="ember5775"
+                class="pill text-capitalize ember-view">Mobile</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Computer/Computer/0/0/0/0/0/0/0/0/0" id="ember5776"
+                class="pill text-capitalize ember-view">Computer</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Food/Food/0/0/0/0/0/0/0/0/0" id="ember5777"
+                class="pill text-capitalize ember-view">Food</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Baby/Baby/0/0/0/0/0/0/0/0/0" id="ember5778"
+                class="pill text-capitalize ember-view">Baby</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Fashion/Fashion/0/0/0/0/0/0/0/0/0" id="ember5779"
+                class="pill text-capitalize ember-view">Fashion</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Beauty/Beauty/0/0/0/0/0/0/0/0/0" id="ember5780"
+                class="pill text-capitalize ember-view">Beauty</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Woman/Woman/0/0/0/0/0/0/0/0/0" id="ember5781"
+                class="pill text-capitalize ember-view">Woman</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Youth/Youth/0/0/0/0/0/0/0/0/0" id="ember5782"
+                class="pill text-capitalize ember-view">Youth</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Seniors/Seniors/0/0/0/0/0/0/0/0/0" id="ember5783"
+                class="pill text-capitalize ember-view">Seniors</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Yoga/Yoga/0/0/0/0/0/0/0/0/0" id="ember5784"
+                class="pill text-capitalize ember-view">Yoga</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Meditation/Meditation/0/0/0/0/0/0/0/0/0" id="ember5785"
+                class="pill text-capitalize ember-view">Meditation</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Success/Success/0/0/0/0/0/0/0/0/0" id="ember5786"
+                class="pill text-capitalize ember-view">Success</a>
+            </li>
+            <li>
+              <a href="advancesearchresult/Rural/Rural/0/0/0/0/0/0/0/0/0" id="ember5787"
+                class="pill text-capitalize ember-view">Rural</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="title1 cid-rgVrt4Q0UQ" id="title02-8">
+    <!--Block parameters controls (Blue "Gear" panel) -->
+    <div class="container">
+      <div class="title align-center">
+        <h3 class="mbr-section-title mbr-fonts-style mbr-semibold display-2">Why ImagesBazaar?</h3>
+        <h4 class="mbr-text mbr-gray mbr-fonts-style mbr-pt-2 display-7">India's diversity and complexity can be
+          witnessed through its people, traditions and values associated with distinctive regional customs,
+          habits, lifestyle and festivals. That's why our content reflects the innate expressions of deep-rooted
+          feelings of individuals through which spring their day-to-day actions. From contemporary concepts and
+          ideas to the broadest range of categories depicting Indians in virtually all walks of life, age groups
+          and expressions - you will find it all here! <a href="/aboutus" style="text-decoration: none"> Know
+            More</a></h4>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- <link rel='stylesheet' href='/stylesheets/home_forfootere.css' /> -->
+<!-- <link rel='stylesheet' href='https://ibcdn.imagesbazaar.com/NodeData/assets/css/home.css' /> -->
+  <section class="footer1 cid-rhbP4MQmLL" id="footer02-b">
+
+    <div class="container-fluid">
+      <div class=" text-center" id="Recent_Searches">
+        <h5 class="Worlds_Collection">World's largest collection of Creative Indian <b>images</b> & <b>videos</b></h5>
+      </div>
+      <div class="row jc-c">
+
+        <div class="col-lg-7 col-md-5 col-sm-6 md-pb col1">
+
+          <h3 class="white display-7  Toll_Nmbrs"><strong>All India Toll Free: 1800-11-6869</strong></h3>
+          <!-- <h3 class="white display-7  Toll_Nmbrs"><strong>USA/Canada Toll Free : +1-800-406-6254</strong></h3> -->
+          
+
+          <div class="align-center contacts-block jc-c column">
+            <div class="icons-list ">
+              <img src="https://ibcdn.imagesbazaar.com/NodeData/assets/images/btn-Help1.png">
+
+            </div>
+            <h3 class="section-title light align-left white fonts-style display-4 Footer_Cntnt">© ImagesBazaar.com. A
+              division of Mash Audio Visuals Pvt. Ltd. All rights reserved.</h3>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-7 col-sm-6 md-pb ">
+          <div class="row jc-c">
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 md-pb">
+
+              <h3 class="display-7">Company Info</h3>
+              <br>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/" class="display-4">Home</a></h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/aboutus" class="display-4">About Us</a>
+                  </h5>
+                </div>
+                <!-- <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h5 class="display-4"><a href="" class="display-4">Press Release </a></h5>
+                </div> -->
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/testimonials"
+                      class="display-4">Testimonials</a></h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/freeresearch" class="display-4">Image
+                      Research</a></h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 md-pb">
+
+              <h3 class="display-7">Learn More</h3>
+              <br>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/ImageVideoSubscription"
+                      class="display-4">Pricing</a></h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/licensing"
+                      class="display-4">Licensing</a>
+                  </h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/termsofuse" class="display-4">Terms of
+                      Use</a></h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/privacypolicy" class="display-4">Privacy
+                      Policy</a></h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 md-pb img_cls">
+
+              <h3 class="display-7">Need Help </h3>
+
+              <br>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/contactus" class="display-4">Contact
+                      Us</a></h5>
+                </div>
+                <div class="col-lg-12 col-md-4 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/searchtips" class="display-4">Search
+                      Tips</a></h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/faq" class="display-4">FAQ</a></h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <h5 class="display-4"><a style="text-decoration: none" href="/technical"
+                      class="display-4">Technical</a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="form" style="display: none;">
+      <p id="feedback_button">Your Feedback Matters >
+      </p>
+    
+      <form method="post" name="LetUsnow" id="LetUsnow" ng-submit="Feedbacksend()" novalidate>
+ 
+        <a style="cursor:pointer"><i class="fa fa-times" id="closediv"></i></a>
+        <div class="Form">
+          <div class="Please_Text">Please let us know what you think <br />about our new website!</div>
+          <div style="margin:20px">
+           <div id="errorMsg" class="alert alert-danger text-center" ng-show="(LetUsnow.footerpopstr.$dirty || LetUsnow.$submitted) && LetUsnow.footerpopstr.$invalid"><b>Enter your Feedback!</b></div>
+          <div id="succMsg" style="display:none;" class="alert alert-success text-center"><b>Feedback submitted successfully</b></div>
+          </div>
+          <textarea id="footerpopstr" name="footerpopstr" placeholder="Message" ng-model="footerpopstr" maxlength="600" required> </textarea>
+          <br>
+          <div class="Feed_Back">
+          <button id="submit_feedback" values="Submit">Submit</button>
+        </div>
+        </div>
+      </form>
+    </div>
+
+   
+    
+   
+
+
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N84K9F6" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+</body>
+<script src="/javascripts/jquery.min.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
+<script src="/javascripts/auto-complete.js?v=1.1"></script>
+<script src="/javascripts/jquery-ui.js"></script>
+<script async src="/javascripts/ibhome.js"></script>
+<script src="/javascripts/footerpopup.js"></script>
+
+<!-- <script async src="https://ibcdn.imagesbazaar.com/NodeData/assets/js/ibpreview.js"></script> -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141515287-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141515287-1');
+</script> -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1499328-5"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'UA-1499328-5');
+</script>
+
+
+<script src="/stylesheets/menu/jquery.zeynep.js"></script>
+
+<script>
+	var $ = jQuery.noConflict();
+	$(function () {
+		// init zeynepjs
+		var zeynep = $('.zeynep').zeynep({
+			onClosed: function () {
+				// enable main wrapper element clicks on any its children element
+				$("body main").attr("style", "");
+
+				console.log('the side menu is closed.');
+			},
+			onOpened: function () {
+				// disable main wrapper element clicks on any its children element
+				$("body main").attr("style", "pointer-events: none;");
+
+				console.log('the side menu is opened.');
+			}
+		});
+
+		// handle zeynep overlay click
+		$(".zeynep-overlay").click(function () {
+			zeynep.close();
+		});
+
+		// open side menu if the button is clicked
+		$(".btn-open").click(function () {
+			if ($("html").hasClass("zeynep-opened")) {
+				zeynep.close();
+			} else {
+				zeynep.open();
+			}
+		});
+		$(".btn-open2").click(function () {
+			if ($("html").hasClass("zeynep-opened")) {
+				zeynep.close();
+			} else {
+				zeynep.open();
+			}
+		});
+	});
+
+</script>
+<script>
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip({ trigger: 'click' });
+	});
+</script>
+
+</html>
+<script>
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js?v=2.2"
+  integrity="sha256-23hi0Ag650tclABdGCdMNSjxvikytyQ44vYGo9HyOrU=" crossorigin="anonymous"></script>
+<script>
+  var app = angular.module("appIndex", []);
+  app.controller("myControllerIndex", function ($scope, $http) {
+    $scope.email = localStorage.getItem('email')
+    if (localStorage.getItem('email') == null) { $scope.adddtitm = "#myModalAddtoCart" }
+    $scope.firstname = localStorage.getItem('firstname')
+    $scope.lastname = localStorage.getItem('lastname')
+    // $scope.password = localStorage.getItem('password')
+    $scope.lightboxidUser = localStorage.getItem('lightboxidUser')
+    $scope.SignIn = 'Sign in'
+    $scope.userid = localStorage.getItem('userid')
+    $scope.shopLength = localStorage.getItem('CartLength')
+    $scope.lightboxLength = localStorage.getItem('wishlistLength')
+    //    alert($scope.lightboxLength)
+    if ($scope.email != null) {
+      $('#shoppingAction').show()
+    }
+    // alert($scope.lightboxidUser)
+    if ($scope.shopLength == null) {
+      $scope.shopLength = 0
+    }
+    if ($scope.lightboxLength == null) {
+      $scope.lightboxLength = 0
+    }
+
+    $scope.Counter = () => {
+      for (let index = 0; index < 3; index++) {
+        $scope.attiAI = index
+      }
+    }
+    $scope.Counter()
+    $scope.logout = function () {
+      // localStorage.clear();
+      localStorage.removeItem('email')
+      localStorage.removeItem('firstname')
+      localStorage.removeItem('lastname')
+      localStorage.removeItem('password')
+      localStorage.removeItem('userid')
+      localStorage.removeItem('userStatus')
+      localStorage.removeItem('CartLength')
+      localStorage.removeItem('wishlistLength')
+      localStorage.removeItem('lightboxidUser')
+      localStorage.removeItem('lightboxidUser')
+      window.location.assign('/logout')
+    }
+    $scope.onShoppingcart = function () {
+      if (localStorage.getItem('email') == null || localStorage.getItem('firstname') == null) {
+        var shopid = window.btoa('shopid')
+        window.open('/ibregistration?shopid=' + shopid)
+      }
+      else {
+        window.open('/buy')
+      }
+    }
+
+    $scope.SearchByClick = function () {
+      var id = $('#txtsearch1').val()
+      if (localStorage.getItem('searchundfine') != null) { localStorage.removeItem('searchundfine') }
+      localStorage.setItem('searchundfine', id);
+      if (id == "" && $("#txt_searchib").val() == "1") {
+        alert('Please enter a search keyword')
+        // window.location.assign("https://videos.imagesbazaar.com/SearchvideofootageCategories/1260/Footage/Recently%20Added%20Videos/0?usrid=" + $scope.userid)
+      }
+      if (id != "" && $("#txt_searchib").val() == "1") {
+        // alert('Please enter a search keyword')
+        window.location.assign("https://videos.imagesbazaar.com/SearchvideofootageKeyword/" + id + "/0?usrid=" + $scope.userid)
+        return false
+      }
+      else {
+        window.location.assign('/advancesearchresult/' + id.replace('(', '[').replace(')', ']').replace("'", '') + '/' + id.replace('(', '[').replace(')', ']').replace("'", '') + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0);
+      }
+    }
+    $scope.getResultBySubmit = () => {
+      var id = $('#txtsearch1').val()
+      // alert(id)
+      if (localStorage.getItem('searchundfine') != null) { localStorage.removeItem('searchundfine') }
+      localStorage.setItem('searchundfine', id);
+      if (id == "" && $("#txt_searchib").val() == "1") {
+        alert('Please enter a search keyword')
+        // window.location.assign("https://videos.imagesbazaar.com/SearchvideofootageCategories/1260/Footage/Recently%20Added%20Videos/0?usrid=" + $scope.userid)
+      }
+      if (id != "" && $("#txt_searchib").val() == "1") {
+        // alert('Please enter a search keyword')
+        window.location.assign("https://videos.imagesbazaar.com/SearchvideofootageKeyword/" + id + "/0?usrid=" + $scope.userid)
+        return false
+      }
+      else {
+        window.location.assign('/advancesearchresult/' + id.replace('(', '[').replace(')', ']').replace("'", '') + '/' + id.replace('(', '[').replace(')', ']').replace("'", '') + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0);
+        // location.reload()
+      }
+    }
+
+
+    $scope.onWishlist = function () {
+      // alert($scope.lightboxLength)
+      //class="action-tooltip" flow="down" tooltip='No Item in Wishlist'
+      if (localStorage.getItem('email') == null || localStorage.getItem('firstname') == null) {
+        var whislist = window.btoa('whislist')
+        window.open('/ibregistration?whislist=' + whislist)
+        return
+      }
+      if (localStorage.getItem('email') == 'bindu@imagesbazaar.com') {
+        window.open('/lightboxcollections')
+        return
+      }
+      if ($scope.lightboxLength == 0) {
+        $('#wishlistIcon').attr("tooltip", "No images in your Wishlist").attr("flow", "down")
+        return
+      }
+      else {
+        //  $('#wishlistIcon').attr("tooltip", "").attr("flow", "")
+        window.open('/lightboxview/' + $scope.lightboxidUser + '/0')
+        return
+      }
+    }
+    // alert('yes')
+    $scope.ImgageSelected = function (img) {
+      window.parent.document.getElementById("drpdwnTxt").innerHTML = img + "<span class='fa fa-angle-down'></span>"
+      if (img == "Images") {
+        $("#txt_searchib").val("0")
+      } else {
+        $("#txt_searchib").val("1")
+      }
+      var id = $('#txtsearch1').val()
+      if (localStorage.getItem('searchundfine') != null) { localStorage.removeItem('searchundfine') }
+      localStorage.setItem('searchundfine', id);
+      if (id == "" && $("#txt_searchib").val() == "1") {
+        alert('Please enter a search keyword')
+        // window.location.assign('https://videos.imagesbazaar.com/SearchvideofootageCategories/1260/Footage/Recently%20Added%20Videos/0?usrid=' + $scope.userid)
+        return false
+      }
+      if ($("#txt_searchib").val() == "0" && id != '') {
+        window.location.assign('/advancesearchresult/' + id.replace('(', '[').replace(')', ']').replace("'", '') + '/' + id.replace('(', '[').replace(')', ']').replace("'", '') + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0);
+        return
+      }
+      if ($("#txt_searchib").val() == "1") {
+        window.location.assign("https://videos.imagesbazaar.com/SearchvideofootageKeyword/" + id + "/0?usrid=" + $scope.userid)
+      }
+      else {
+        alert('Please enter a search keyword')
+      }
+    }
+
+    $scope.getSubCategory = function (sno, cat) {
+      var url = "/JSON/" + sno + ".json";
+      $scope.catMain = cat
+      $http.get(url).then(function (response) {
+        $scope.SubCategory = response.data.NewDataSet.Table;
+      });
+    }
+    $scope.getSubCategory1 = () => {
+      $("#hasSubMenu").unbind();
+      return false
+    }
+
+    $scope.gotoPricing = function (imgid) {
+      //function gotoPricing(imgid){
+      // $(document).on('click', '.gotoPricing', function () {
+      // alert(this.id)
+      $("#txt_crtimgid").val("0")
+      if (localStorage.getItem('email') != null) {
+        window.open('/pricing?id=' + window.btoa(imgid))
+      }
+      else {
+        $('#txt_newimgid').val(window.btoa(imgid))
+      }
+    }
+
+    $scope.onIbLogin = function () {
+
+      if ($scope.insert.$valid) {
+        var obj = {
+          email: $scope.loginEmailcart,
+          password: $scope.loginPasswordcart
+        }
+        $http.post('/IbLoginBySubmit', obj).then(function (res) {
+          var dataLength = res.data.length
+          if (res.data.length == 0) {
+            $scope.errorMsg = true
+            // $('#counterDiv').hide()
+            setTimeout(function () {
+              $("#errorMsg").hide(1500)
+            }, 4000);
+            $("#errorMsg").show(1500)
+            $("#imgloader").hide()
+            return
+          }
+          if (res.data[0].block == "block") {
+            $scope.errorMsg1 = true
+            // var countdownTimer = setInterval(timer, 1000);
+            // $('#counterDiv').show()
+            setTimeout(function () {
+              $("#errorMsg1").hide(1500)
+            }, 4000);
+            $("#errorMsg1").show(1500)
+            $("#imgloader").hide()
+            return
+
+          }
+          if (res.data[0].invalid == "invalidUser") {
+            $scope.errorMsg = true
+            $('#counterDiv').hide()
+            setTimeout(function () {
+              $("#errorMsg").hide(1500)
+            }, 4000);
+            $("#errorMsg").show(1500)
+            $("#imgloader").hide()
+            return
+          }
+          else {
+            localStorage.setItem('email', res.data[0].CS_email)
+            localStorage.setItem('firstname', res.data[0].CS_firstname)
+            localStorage.setItem('lastname', res.data[0].CS_lastname)
+            // localStorage.setItem('password', res.data[0].CS_password)
+            localStorage.setItem('userid', res.data[0].CS_userid)
+            localStorage.setItem('userStatus', res.data[0].cs_status)
+            localStorage.setItem('CartLength', res.data[0].shopingcount)
+            localStorage.setItem('wishlistLength', res.data[0].lightboxcount)
+            localStorage.setItem('lightboxidUser', res.data[0].ligtboxid)
+            $scope.userid = res.data[0].CS_userid;
+            // localStorage.setItem('wishlistLength', res.data[0].lightboxcount)
+            // console.log(res.data[0].ligtboxid)
+            // return
+            //  alert($("#txt_crtimgid").val())
+            var chklog = $("#txt_crtimgid").val()
+            if (chklog == "0") {
+              window.location.assign('/pricing?id=' + $("#txt_newimgid").val())
+            }
+            if (chklog == "1") {
+              // $("#myModallightbox_btnother").click()
+              // $scope.Get_imglisgtUser('0', '1')
+              localStorage.setItem('wishlistpop', '2');
+              location.reload()
+              // setTimeout(function () {
+              //     location.reload()
+              // }, 2000);
+            }
+            if (chklog == "2") {
+              localStorage.setItem('wishlistpop', '3');
+              location.reload()
+            }
+          }
+        })
+      }
+    }
+
+    $scope.Get_imglisgt = (imgid) => {
+      $("#txt_crtimgid").val("1")
+      $scope.setRank = 1
+      localStorage.removeItem('ligtboxvl');
+      if (imgid == "0") {
+        if ($("#txt_" + tsvl).val() != "") {
+          // alert()
+          var fullt = $("#txt_" + tsvl).val();
+          var fullt1 = fullt.split('-')
+          var fullt2 = fullt1[1] + "-" + fullt1[4] + "-" + fullt1[2];
+          localStorage.setItem('ligtboxvl', fullt2);
+          $scope.groupid = fullt1[1];
+          $scope.rank = fullt1[4];
+          $scope.imgname = fullt1[2];
+          //--open popup for light box
+          if (localStorage.getItem("email") != null) {
+            var obj1 = {
+              email: localStorage.getItem("email")//$scope.email
+            }
+            $scope.imgsetlight = localStorage.getItem('ligtboxvl');
+            $scope.imggetlight = $scope.imgsetlight.split('-');
+            $scope.groupid = $scope.imggetlight[0]
+            $scope.rank = $scope.imggetlight[1]
+            $scope.imgname = $scope.imggetlight[2]
+            $http.post('/getlightboxdetail', obj1).then(function (res) {
+              $scope.lightboxlist = res.data
+              $scope.lightboxLength = res.data[0].lightboxcount
+              localStorage.setItem('wishlistLength', $scope.lightboxLength)
+            })
+          }
+          //--End open popup for light box
+        }
+      }
+      else {
+        localStorage.setItem('ligtboxvl', imgid);
+        $scope.obj = {
+          email: localStorage.getItem("email")//$scope.email
+        }
+        if (localStorage.getItem('ligtboxvl') != null || localStorage.getItem('ligtboxvl') != '') {
+          $scope.imgsetlight = localStorage.getItem('ligtboxvl');
+          $scope.imggetlight = $scope.imgsetlight.split('-');
+          $scope.groupid = $scope.imggetlight[0]
+          $scope.rank = $scope.imggetlight[1]
+          $scope.imgname = $scope.imggetlight[2]
+        }
+        $http.post('/getlightboxdetail', $scope.obj).then(function (res) {
+          $scope.lightboxlist = res.data
+          $scope.lightboxLength = res.data[0].lightboxcount
+          localStorage.setItem('wishlistLength', $scope.lightboxLength)
+        })
+        document.getElementById("txt_lightboxname").innerHTML = 'Atti'
+        $("#txt_lightboxname").click();
+        // if ($scope.lightboxLength == 0) {
+        $('#wishlistIcon').attr("tooltip", "").attr("flow", "")
+        // }
+      }//--else end
+    }
+
+    $scope.Get_imglisgtUser = (imgid, typ) => {
+      // function Get_imglisgtUser() {
+      // debugger
+      //   alert(imgid)
+      if (localStorage.getItem('email') == null) {
+        localStorage.setItem('wishimgid', imgid);
+      }
+
+
+      $("#txt_crtimgid").val("1")
+      if (imgid != "0") { tsvl = imgid }
+      if (typ == "0") {
+        if (imgid == "0") { tsvl = 0 }
+      }
+      if (localStorage.getItem('wishimgid') != null) {
+        tsvl = localStorage.getItem('wishimgid');
+      }
+
+
+      // else { tsvl = 0 }
+      var fullt = $("#txt_" + tsvl).val();
+      var fullt1 = fullt.split('-')
+      var fullt2 = fullt1[1] + "-" + fullt1[4] + "-" + fullt1[2];
+      localStorage.setItem('ligtboxvl', fullt2);
+      $scope.groupid = fullt1[1];
+      $scope.rank = fullt1[4];
+      $scope.imgname = fullt1[2];
+      // alert($scope.groupid + '----' + $scope.rank + '-----' + $scope.imgname)
+      //var imgidv = imgid.split('-')
+      $scope.lightboxobjec = {
+        emllight: $scope.email,
+        imageId: fullt1[2],
+      }
+      $http.post('/SetlightboxdetailOther', $scope.lightboxobjec).then(function (res) {
+        // console.log(res.data[0])
+        $scope.getlightboxid = res.data[0].getlightboxid
+        $scope.lightboxlist = res.data
+        $scope.lightboxinserret = res.data
+        $scope.groupid = fullt1[1];
+        $scope.rank = fullt1[4];
+        $scope.imgname = fullt1[2];
+        // alert($scope.showMsg)
+        // return
+        if ($scope.lightboxinserret[0].msg == "succ") {
+          // $scope.wishlistLength = parseInt(localStorage.getItem('wishlistLength')) + 1
+          $scope.wishlistLength = res.data[0].getlightimgcount_all
+          // alert($scope.wishlistLength)
+          localStorage.setItem('wishlistLength', $scope.wishlistLength)
+          // console.log(res.data[0])
+          $scope.lightboxLength = $scope.wishlistLength
+          $scope.lightboxidUser = res.data[0].getlightboxid
+
+          localStorage.setItem('lightboxidUser', res.data[0].getlightboxid)
+          // alert($scope.lightboxidUser)
+          $scope.error = 'succ'
+          $("#txt_lightboxname").val('')
+          setTimeout(function () {
+            $('#wishlistClose').click()
+            localStorage.removeItem('wishimgid')
+          }, 2000);
+        }
+        else if ($scope.lightboxinserret[0].msg == "Exists") {
+          $scope.error = 'exist'
+          setTimeout(function () {
+            $('#wishlistClose').click()
+            localStorage.removeItem('wishimgid')
+          }, 2000);
+          // alert($scope.error)
+          // setTimeout(function () {
+          //     $("#exist").hide(1500)
+          // }, 2000);
+          // $("#exist").show(1500)
+        }
+        // else if ($scope.lightboxinserret[0].msg == "faield") {
+        //     $scope.Get_imglisgt(localStorage.getItem('ligtboxvl'))
+        //     $scope.error = 'folderselect'
+        //     setTimeout(function () {
+        //         $("#folderselect").hide(1500)
+        //     }, 2000);
+        //     $("#folderselect").show(1500)
+        // }
+        // else if ($scope.lightboxinserret[0].msg == "duplicate") {
+        //     $scope.Get_imglisgt(localStorage.getItem('ligtboxvl'))
+        //     // $scope.toastr.errorToastr("Lightbox name already exists!", 'Oops!');
+        //     // alert('Oops! '+' Lightbox name already exists!')
+        //     $scope.error = 'lightboxexist'
+        //     setTimeout(function () {
+        //         $("#lightboxexist").hide(1500)
+        //     }, 2000);
+        //     $("#lightboxexist").show(1500)
+        // }
+        $('#wishlistIcon').attr("tooltip", "").attr("flow", "")
+      })
+    }
+
+    $scope.Savelightboxbtn = (lightboxid) => {
+      if ($("#txt_lightboxname").val() == "") {
+        // alert('Oops! '+' Please Enter Lightbox Name!')
+        $scope.error = 'lightboxname'
+        setTimeout(function () {
+          $("#lightboxname").hide(1500)
+        }, 2000);
+        $("#lightboxname").show(1500)
+        return false;
+      }
+      if (localStorage.getItem('ligtboxvl') != null || localStorage.getItem('ligtboxvl') != '') {
+        $scope.imgsetlight = localStorage.getItem('ligtboxvl');
+        $scope.imggetlight = $scope.imgsetlight.split('-');
+        $scope.groupid = $scope.imggetlight[0]
+        $scope.rank = $scope.imggetlight[1]
+        $scope.imgname = $scope.imggetlight[2]
+      }
+      $scope.lightboxobjec = {
+        emllight: $scope.email,
+        lightboxid: lightboxid,
+        imgsetlight: $scope.imggetlight[2],
+        foldernm: $("#txt_lightboxname").val()
+      }
+
+      $http.post('/Setlightboxdetail', $scope.lightboxobjec).then(function (res) {
+        $scope.lightboxlist = res.data
+        $scope.lightboxinserret = res.data
+        if ($scope.lightboxinserret[0].msg == "succ") {
+          $scope.wishlistLength = parseInt(localStorage.getItem('wishlistLength')) + 1
+          localStorage.setItem('wishlistLength', $scope.wishlistLength)
+          $scope.lightboxLength = $scope.wishlistLength
+          $scope.error = 'succ'
+          setTimeout(function () {
+            $("#succ").hide(1500)
+          }, 2000);
+          $("#succ").show(1500)
+          $("#txt_lightboxname").val('')
+          $("#txt_lightboxname").focus()
+          $scope.Get_imglisgt(localStorage.getItem('ligtboxvl'))
+        }
+        else if ($scope.lightboxinserret[0].msg == "Exists") {
+          $scope.Get_imglisgt(localStorage.getItem('ligtboxvl'))
+          $scope.error = 'exist'
+          setTimeout(function () {
+            $("#exist").hide(1500)
+          }, 2000);
+          $("#exist").show(1500)
+        }
+        else if ($scope.lightboxinserret[0].msg == "faield") {
+          $scope.Get_imglisgt(localStorage.getItem('ligtboxvl'))
+          $scope.error = 'folderselect'
+          setTimeout(function () {
+            $("#folderselect").hide(1500)
+          }, 2000);
+          $("#folderselect").show(1500)
+        }
+        else if ($scope.lightboxinserret[0].msg == "duplicate") {
+          $scope.Get_imglisgt(localStorage.getItem('ligtboxvl'))
+          // $scope.toastr.errorToastr("Lightbox name already exists!", 'Oops!');
+          // alert('Oops! '+' Lightbox name already exists!')
+          $scope.error = 'lightboxexist'
+          setTimeout(function () {
+            $("#lightboxexist").hide(1500)
+          }, 2000);
+          $("#lightboxexist").show(1500)
+        }
+      })
+
+    }
+    $scope.Savelightbox = (lightboxid) => {
+      if (localStorage.getItem('ligtboxvl') != null || localStorage.getItem('ligtboxvl') != '') {
+        $scope.imgsetlight = localStorage.getItem('ligtboxvl');
+        $scope.imggetlight = $scope.imgsetlight.split('-');
+
+        $scope.groupid = $scope.imggetlight[0]
+        $scope.rank = $scope.imggetlight[1]
+        $scope.imgname = $scope.imggetlight[2]
+      }
+      $scope.lightboxobjec = {
+        emllight: $scope.email,
+        lightboxid: lightboxid,
+        imgsetlight: $scope.imggetlight[2],
+        foldernm: ''
+      }
+      // $scope.searchService.Setlightboxdetail($scope.lightboxobjec).subscribe((data) => {
+      $http.post('/Setlightboxdetail', $scope.lightboxobjec).then(function (res) {
+        $scope.lightboxlist = res.data
+        $scope.lightboxinserret = res.data
+        // $scope.searchService.GetLightBoxShopingCartCounter($scope.lightboxobjec.emllight).subscribe((data) => {
+        //   alert(JSON.stringify(data))                                                                 
+        if ($scope.lightboxinserret[0].msg == "succ") {
+          // $scope.toastr.successToastr('The image has been added to your lightbox..', 'Lightbox!!');
+          $scope.error = 'succ'
+          setTimeout(function () {
+            $("#succ").hide(1500)
+          }, 2000);
+          $("#succ").show(1500)
+          $scope.Get_imglisgt(localStorage.getItem('ligtboxvl'))
+        }
+        else if ($scope.lightboxinserret[0].msg == "Exists") {
+          $scope.Get_imglisgt(localStorage.getItem('ligtboxvl'))
+          // $scope.toastr.errorToastr("Image Already Exists!", 'Oops!');
+          // alert('Oops! '+' Image Already Exists!')
+          $scope.error = 'exist'
+          setTimeout(function () {
+            $("#exist").hide(1500)
+          }, 2000);
+          $("#exist").show(1500)
+        }
+        else if ($scope.lightboxinserret[0].msg == "faield") {
+          $scope.Get_imglisgt(localStorage.getItem('ligtboxvl'))
+          // $scope.toastr.errorToastr("Please Select image For add to Lightbox!", 'Oops!');
+          // alert('Oops! '+' Please Select image For add to Lightbox!')
+          $scope.error = 'folderselect'
+          setTimeout(function () {
+            $("#folderselect").hide(1500)
+          }, 2000);
+          $("#folderselect").show(1500)
+        }
+        else if ($scope.lightboxinserret[0].msg == "duplicate") {
+          $scope.Get_imglisgt(localStorage.getItem('ligtboxvl'))
+          // $scope.toastr.errorToastr("Lightbox name already exists!", 'Oops!');
+          // alert('Oops! '+' Lightbox name already exists!')
+          $scope.error = 'lightboxexist'
+          setTimeout(function () {
+            $("#lightboxexist").hide(1500)
+          }, 2000);
+          $("#lightboxexist").show(1500)
+        }
+
+      })
+      // })
+    }
+
+    $scope.ImgageSelected = function (img) {
+      window.parent.document.getElementById("drpdwnTxt").innerHTML = img + "<span class='fa fa-angle-down'></span>"
+      if (img == "Images") {
+        $("#txt_searchib").val("0")
+      } else {
+        $("#txt_searchib").val("1")
+      }
+      var id = $('#txtsearch1').val()
+      if (localStorage.getItem('searchundfine') != null) { localStorage.removeItem('searchundfine') }
+      localStorage.setItem('searchundfine', id);
+      if (id == "" && $("#txt_searchib").val() == "1") {
+        alert('Please enter a search keyword')
+        // window.location.assign('https://videos.imagesbazaar.com/SearchvideofootageCategories/1260/Footage/Recently%20Added%20Videos/0?usrid=' + $scope.userid)
+        return false
+      }
+      if ($("#txt_searchib").val() == "0" && id != '') {
+        window.location.assign('/advancesearchresult/' + id.replace('(', '[').replace(')', ']').replace("'", '') + '/' + id.replace('(', '[').replace(')', ']').replace("'", '') + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0 + '/' + 0);
+        return
+      }
+      if ($("#txt_searchib").val() == "1") {
+        window.location.assign("https://videos.imagesbazaar.com/SearchvideofootageKeyword/" + id + "/0?usrid=" + $scope.userid)
+      }
+      else {
+        alert('Please enter a search keyword')
+      }
+    }
+    if (localStorage.getItem('wishlistpop') != null) {
+      if (localStorage.getItem('wishlistpop') == "2") {
+        setTimeout(function () {
+          if (localStorage.getItem('email') == 'bindu@imagesbazaar.com') {
+            $("#myModallightbox_btn").click();
+            $scope.Get_imglisgt(localStorage.getItem('ligtboxvl'))
+            // localStorage.removeItem('wishlistpop')
+          }
+          else {
+            $("#myModallightbox_btnother").click()
+            $scope.Get_imglisgtUser('0', '1')
+          }
+        }, 800);
+        localStorage.removeItem('wishlistpop')
+      }
+      if (localStorage.getItem('wishlistpop') == "3") {
+        setTimeout(function () {
+          $("#myModalDownloadLogin_btn").click();
+          localStorage.removeItem('wishlistpop')
+        }, 500);
+      }
+    }
+    $scope.CreatactPricing = () => {
+      if ($("#txt_crtimgid").val() == "1") {
+        window.location.assign('/register')
+      }
+      else {
+        window.location.assign('/register?id=' + window.btoa($("#txt_newimgid").val()))
+      }
+    }
+
+    $scope.Feedbacksend = function () {
+      if ($scope.LetUsnow.$valid) {
+        var fullsend = {
+          commentdata: $("#footerpopstr").val(),
+        }
+        $http.post('/Sendfeedback', fullsend).then(function (res) {
+          $("#footerpopstr").val("")
+          if (res.data == "Sent") {
+            setTimeout(function () {
+              $("#succMsg").hide(1000)
+            }, 3000);
+            $("#succMsg").show(1000)
+          }
+        })
+      }
+    }
+
+    //    ----------------------------------------------------------------------------
+
+    //  console.log(localStorage.getItem("RecomondedAllImagePreview"))
+
+
+    // $('#recentViewImages').hide()
+    // $('#recomondedViewImages').hide()
+    if (localStorage.getItem("LatestImagePreview") != null) {
+      var historyTmp_thumbe = localStorage.getItem("LatestImagePreview");
+      var oldhistoryarray_thumbe = historyTmp_thumbe.split('|');
+      var Finalresult_thumbe = [];
+      $.each(oldhistoryarray_thumbe, function (i, e) {
+        if ($.inArray(e, Finalresult_thumbe) == -1) Finalresult_thumbe.push(e);
+      });
+      var filteredArray1 = Finalresult_thumbe.filter(function (item, pos) {
+        return Finalresult_thumbe.indexOf(item) == pos;
+      });
+      var imgLgnth = 0
+      var NewFinalresult_thumbe = [];
+      var NewFinalresult_thumbe1 = [];
+      Finalresult_thumbe.forEach(function (attiTest, pos) {
+        if ($.inArray(JSON.parse(attiTest).imgFsno, NewFinalresult_thumbe) == -1) {
+          NewFinalresult_thumbe.push(JSON.parse(attiTest).imgFsno);
+          NewFinalresult_thumbe1.push(JSON.parse(attiTest));
+        }
+      });
+      var RecentSearchesDivcheck;
+      // alert(JSON.stringify(NewFinalresult_thumbe1))
+      // debugger
+      RecentSearchesDivcheck = NewFinalresult_thumbe1.length;
+      if (RecentSearchesDivcheck > 14) {
+        RecentSearchesDivcheck = 14;
+      }
+      else {
+        RecentSearchesDivcheck = oldhistoryarray_thumbe.length;
+      }
+      // if (RecentSearchesDivcheck > 4) {
+      //   for (var i = 0; i < 4; i++) {
+      //     var obj = (NewFinalresult_thumbe1[i]);
+      //     var ImageName = obj.imgName.split('/')
+      //     var imgnm1 = ImageName[0]
+      //     var GroupId = ImageName[1].split('-')
+      //   }
+      // }
+      // else {
+      // }
+    }
+
+
+    // localStorage.removeItem("LatestImagePreview")
+    // localStorage.removeItem("RecomondedImagePreview")
+    if (localStorage.getItem("RecomondedImagePreview") != null) {
+      var historyRecomendedTmp_thumbe = localStorage.getItem("RecomondedImagePreview");
+      var oldRecomandedhistoryarray_thumbe = historyRecomendedTmp_thumbe.split('|');
+      var Finalresult_Recomamndedthumbe = [];
+      $.each(oldRecomandedhistoryarray_thumbe, function (i, e) {
+        if ($.inArray(e, Finalresult_Recomamndedthumbe) == -1) Finalresult_Recomamndedthumbe.push(e);
+      });
+      const resultFinal = [];
+      const map = new Map();
+      for (const item of Finalresult_Recomamndedthumbe) {
+        if (!map.has(JSON.parse(item).imgName)) {
+          map.set(JSON.parse(item).imgName, true);    // set any value to Map
+          resultFinal.push(JSON.parse(item));
+        }
+      }
+      var NewFinalresult_Recomamndedthumbe = [];
+      var NewFinalresult_Recomamndedthumbe1 = [];
+      $scope.AllSearchRecordFinal4 = [];
+      Finalresult_Recomamndedthumbe.forEach(function (attiTest, pos) {
+        if ($.inArray(JSON.parse(attiTest).imgFsno, Finalresult_Recomamndedthumbe) == -1) {
+          Finalresult_Recomamndedthumbe.push(JSON.parse(attiTest).imgFsno);
+          NewFinalresult_Recomamndedthumbe1.push(JSON.parse(attiTest));
+        }
+
+      });
+      var a = NewFinalresult_thumbe1
+      var b = NewFinalresult_Recomamndedthumbe1
+      var topNewFinalresult_Recomamndedthumbe1;
+      topNewFinalresult_Recomamndedthumbe1 = b
+    }
+    var RecomondedSearchesDivcheck;
+    // debugger
+    // alert(topNewFinalresult_Recomamndedthumbe1)
+    if (topNewFinalresult_Recomamndedthumbe1 != undefined) {
+      RecomondedSearchesDivcheck = topNewFinalresult_Recomamndedthumbe1.length;
+    }
+    else {
+      RecomondedSearchesDivcheck = 0
+    }
+    //debugger
+    //console.log(oldRecomandedhistoryarray_thumbe)
+    // if (oldRecomandedhistoryarray_thumbe != undefined) {
+    //   if (RecomondedSearchesDivcheck > 14) {
+
+    //     RecomondedSearchesDivcheck = 14;
+    //   }
+    //   else {
+    //     RecomondedSearchesDivcheck = oldRecomandedhistoryarray_thumbe.length;
+    //   }
+    // }
+    // else {
+    //   RecomondedSearchesDivcheck = 0// oldRecomandedhistoryarray_thumbe.length;
+    // }
+
+    //alert(RecomondedSearchesDivcheck)
+
+    if (RecomondedSearchesDivcheck >= 12) {
+      for (var i = 0; i < 12; i++) {
+        // console.log(topNewFinalresult_Recomamndedthumbe1[i])
+        $scope.AllSearchRecordFinal4.push(topNewFinalresult_Recomamndedthumbe1[i]);
+        $('#recomondedViewImages').show()
+      }
+    }
+    else {
+      // $('#RecentPreviewDiv').hide();
+    }
+
+    // console.log(RecomondedSearchesDivcheck)
+    // console.log($scope.AllSearchRecordFinal4)
+
+    var tsvl = 0;
+    $(function () {
+      setTimeout(function () { tsvl = parseInt($(".valuegetcls").val()); }, 600);
+      $('body').append(`
+                <div class="galleryShadow"></div>
+                <div class="galleryModal">
+                <i class="galleryIcon gIquit fa fa-times-circle"></i>
+                <i class="galleryIcon gIleft fa fa-angle-left"></i>
+                <i class="galleryIcon gIright fa fa-angle-right"></i>
+                <div class="galleryContainer">
+                <div><img src=""></div>
+                <div class="Image_Count" id="imgcntinner">0/0</div>
+                <div class="Image_Text">© ImagesBazaar</div>
+                <div class="Img_Id" id="imgnmshow">SM747167</div>
+                <div class="Left_IconsText">
+                <a title="Entire Shoot" id="hg-entireshoot" style="cursor:pointer;" class="viewent" ><i class='fa fa-camera' title="Entire Shoot"></i><span class="Similar_Text">Entire Shoot</span></a>
+                <a title="Similar Images"  class="viewsimilar" style="cursor:pointer"><i class="fa fa-th-large" aria-hidden="true" title="Similar Images"></i><span class="Similar_Text">Similar Images</span></a>
+                <a title="Same Model" style="cursor:pointer;" class="modelveiw"><i class='fa fa-user'></i><span class="Similar_Text" title="Same Model">Same Model</span></a>
+                <a title="Pricing" class="addcrt" target="_blank" style="cursor:pointer"><i class="fa fa-inr" aria-hidden="true" title="Price"> </i><span class="Similar_Text">Price </span></a>
+                <a title="Download" id="hg-pichref" class="downloadcls" style="cursor:pointer;"><i class="fa fa-download" aria-hidden="true" title="download"> </i><span class="Similar_Text">Download</span></a>
+                </div>
+                <div class="Icons" style='margin-top: 600px'> 
+                <a id="hg-addtocart" class="addcrt" tooltip="Shopping Cart"  style="cursor:pointer"><i class="fa fa-shopping-cart" aria-hidden="true" title="Shopping Cart"></i> </a>
+                <a href="javascript:void(0)" class="funwishlistpop"  tooltip="Add to whishlist"><i class='fa fa-heart' title="whishlist"></i></a>
+                <a id="hg-userlogin"  href="/registration" style="display: none;"><i class="fa fa-user" aria-hidden="true" title="User Login"></i> </a>
+                </div>
+                </div>  
+                </div>
+`)
+      $('.gIquit').click(function () {
+        $('.galleryModal').css({ 'transform': 'scale(0)' });
+        $('.galleryShadow').fadeOut();
+        tsvl = 0;
+      })
+
+      $('.gallery').on('click', '.galleryItem', function (e) {
+        var clkid = (e.target.id).replace("img", "");
+        clkid = clkid.replace("z", "")
+        // if (e.target.className !== "fa fa-search") {
+        if (e.target.className !== "Middle_Entry") {
+          if (e.target.className !== "view") {
+            if (e.target.className !== "fa fa-th-large") {
+              if (e.target.className !== "fa fa-shopping-cart") {
+                if (e.target.className !== "fa fa-heart") {
+                  if (e.target.className !== "fa fa-download") {
+                    tsvl = parseInt(clkid);
+                    var m = $("#txt_" + tsvl).val();
+                    if (m != null || m != "") {
+                      var allimgvl = m.split('-')
+                      var imgnmprv = allimgvl[7];
+                      var imgnmprv1 = allimgvl[6];
+                      var imgnmprvnm = allimgvl[2];
+                      $('#imgnmshow').html(imgnmprvnm);
+                      console.log("cp1" + imgnmprv1);
+
+                      $('#imgcntinner').html((tsvl + 1) + '/' + imgnmprv1); //cp
+                      var imgnmprvmodl = allimgvl[5];
+                      if (imgnmprvmodl != 0) { $(".modelveiw").show(); } else { $(".modelveiw").hide(); }
+                      if (imgnmprv == "H") { $(".galleryContainer").attr("class", "galleryContainer Horizontal_Image") }
+                      else {
+                        $(".galleryContainer").attr("class", "galleryContainer Vertical_Image")
+                      }
+                    }
+                    galleryNavigate($(this), 'opened', tsvl);
+                    $('.galleryModal').css({ 'transform': 'scale(1)' });
+                  }//--if end
+                }//--if end
+              }//--if end
+            }//--if end
+          }//--if end
+        }//--if end
+        // }//--if end
+      })
+
+      $(document).on('click', '.addcrt', function () {
+        $("#txt_crtimgid").val("0")
+        var m = $("#txt_" + tsvl).val();
+        if (m != null || m != "") {
+          var allimgvl = m.split('-')
+          var imgnmprv = allimgvl[3];
+          var imgpriceprv = allimgvl[4];
+          var imgId = window.btoa(imgnmprv); // encode a string
+          var imgPricing = window.btoa(imgpriceprv); // encode a string
+          localStorage.setItem('EncImageId', imgId);
+          localStorage.setItem('EncpImgPrice', imgPricing);
+          if (localStorage.getItem('email') == null) {
+            $("#txt_newimgid").val("")
+            $("#txt_newimgid").val(imgId)
+            $(".galleryShadow").hide();
+            $(".galleryModal").attr("style", "transform: scale(0);");
+            $("#myModalcartlogin_btn").click()
+          }
+          else {
+            $(".addcrt").attr("href", "/pricing?id=" + imgId.replace('/', '-')).attr('target', '_blank')
+          }
+        }
+      })
+
+      $(document).on('click', '.downloadcls', function () {
+        if (localStorage.getItem('email') == null) {
+          $(".galleryShadow").hide()
+          $(".galleryModal").attr("style", "transform: scale(0);");
+          $("#txt_crtimgid").val("2")
+          $("#myModalDownload_btn").click();
+        }
+        else {
+          var dimg = this.id
+          if (dimg != "hg-pichref") {
+            tsvl = dimg.replace("hg-pichref", "");
+          }
+          var m = $("#txt_" + tsvl).val();
+          if (m != null || m != "") {
+            var allimgvl = m.split('-')
+            var imgmodelId = allimgvl[5];
+            $(".galleryShadow").hide()
+            $(".galleryModal").attr("style", "transform: scale(0);");
+          }
+          $("#myModalDownloadLogin_btn").click();
+        }
+      })
+
+      let galleryNav
+      let galleryNew
+      let galleryNewImg
+      let galleryNewText
+      $('.gIleft').click(function () {
+        galleryNew = $(galleryNav).prev()
+
+
+
+        tsvl = tsvl - 1;
+        var m1 = $("#txt_0").val();
+        if (m1 != null || m1 != "") {
+          var allimgvl_d = m1.split('-')
+          if (tsvl == -1) { tsvl = parseInt(allimgvl_d[6]) - 1; }
+        }
+        galleryNavigate(galleryNew, 'last', tsvl)
+
+
+
+        var m = $("#txt_" + tsvl).val();
+        if (m != null || m != "") {
+          var allimgvl = m.split('-')
+          var imgnmprv = allimgvl[5];
+          if (imgnmprv != 0) {
+            $(".modelveiw").show();
+          } else {
+            $(".modelveiw").hide();
+          }
+          var imgnmprv2 = allimgvl[7];
+          if (imgnmprv2 == "H") { $(".galleryContainer").attr("class", "galleryContainer Horizontal_Image") }
+          else { $(".galleryContainer").attr("class", "galleryContainer Vertical_Image") }
+        }
+        //---------------------------------------- For top count show on preview
+        var m1 = $("#txt_" + tsvl).val();
+
+        if (m1 != null || m1 != "") {
+          var allimgvl1 = m1.split('-')
+          var imgnmprv1 = allimgvl1[6];
+          console.log("cp2" + imgnmprv1);
+          $('#imgcntinner').html((tsvl + 1) + '/' + imgnmprv1);
+          var imgnmprvnm = allimgvl1[2];
+          $('#imgnmshow').html(imgnmprvnm);
+        }
+        //----------------------------------------
+
+      })
+      //card-img-top
+      $('.gIright').click(function (e) {
+
+        galleryNew = $(galleryNav).next()
+        tsvl = tsvl + 1;
+        var m1 = $("#txt_0").val();
+
+        if (m1 != null || m1 != "") {
+          var allimgvl_d = m1.split('-')
+          if (tsvl == allimgvl_d[6]) { tsvl = 0; }
+          //  alert('next'+tsvl+','+allimgvl_d[6])
+        }
+        galleryNavigate(galleryNew, 'first', tsvl)
+
+
+
+        var m = $("#txt_" + tsvl).val();
+
+        if (m != null || m != "") {
+          var allimgvl = m.split('-')
+          var imgnmprv = allimgvl[5];
+          if (imgnmprv != 0) {
+            $(".modelveiw").show();
+          } else {
+            $(".modelveiw").hide();
+          }
+          var imgnmprv2 = allimgvl[7];
+
+          if (imgnmprv2 == "H") { $(".galleryContainer").attr("class", "galleryContainer Horizontal_Image") }
+          else { $(".galleryContainer").attr("class", "galleryContainer Vertical_Image") }
+        }
+        //----------------------------------------
+        // alert(tsvl)
+        var m1 = $("#txt_" + tsvl).val();
+        if (m1 != null || m1 != "") {
+          var allimgvl1 = m1.split('-')
+          var imgnmprv1 = allimgvl1[6];
+          console.log("cp3" + imgnmprv1);
+          $('#imgcntinner').html((tsvl + 1) + '/' + imgnmprv1);
+          var imgnmprvnm = allimgvl1[2];
+          $('#imgnmshow').html(imgnmprvnm);
+
+        }
+        //----------------------------------------
+
+
+      })
+
+      function galleryNavigate(gData, direction, imgnmr) {
+        if ($('#img' + tsvl != undefined)) {
+          $('.galleryModal img').attr('src', $('#img' + tsvl).attr('src'))
+        }
+        else {
+          gData = $('.galleryItem:' + direction)
+
+          galleryNav = gData
+          galleryNewImg = gData.children('img').attr('src')
+          $('.galleryModal img').attr('src', galleryNewImg)
+        }
+      }
+
+      document.onkeydown = checkKey;
+
+      function checkKey(e) {
+
+        galleryNav
+        galleryNew
+        galleryNewImg
+        galleryNewText
+
+
+        e = e || window.event;
+
+        if (e.keyCode == '38') {
+          // up arrow
+          // alert('pressed up');
+        }
+        else if (e.keyCode == '40') {
+          // down arrow
+          // alert('pressed down');
+        }
+
+        else if (e.keyCode == '37') {
+          // left arrow
+
+          galleryNew = $(galleryNav).prev()
+          tsvl = tsvl - 1;
+          var m1 = $("#txt_0").val();
+          if (m1 != null || m1 != "") {
+            if (m1 != undefined) {
+              var allimgvl_d = m1.split('-')
+            }
+            // alert(tsvl+','+ allimgvl_d[6])
+            if (tsvl == -1) { tsvl = parseInt(allimgvl_d[6]) - 1; }
+          }
+          galleryNavigate(galleryNew, 'last', tsvl)
+
+
+
+          var m = $("#txt_" + tsvl).val();
+          // alert(m)
+          if (m != null || m != "") {
+            var imgnmprv;
+            var allimgvl;
+            if (m != undefined) {
+              allimgvl = m.split('-')
+              imgnmprv = allimgvl[5];
+
+            }
+            else {
+              imgnmprv = 0;
+              allimgvl = '0'
+            }
+            if (imgnmprv != 0) {
+              $(".modelveiw").show();
+            } else {
+              $(".modelveiw").hide();
+            }
+            var imgnmprv2 = allimgvl[7];
+            if (imgnmprv2 == "H") { $(".galleryContainer").attr("class", "galleryContainer Horizontal_Image") }
+            else { $(".galleryContainer").attr("class", "galleryContainer Vertical_Image") }
+          }
+          //---------------------------------------- For top count show on preview
+          var m1 = $("#txt_" + tsvl).val();
+          if (m1 != null || m1 != "") {
+            var allimgvl1;
+            var imgnmprv1
+            if (m1 != undefined) {
+              allimgvl1 = m1.split('-')
+              var imgnmprv1 = allimgvl1[6];
+            }
+            else {
+              allimgvl1 = 0
+              imgnmprv1 = '0'
+            }
+            console.log("cp4" + imgnmprv1);
+            $('#imgcntinner').html((tsvl + 1) + '/' + imgnmprv1);
+            var imgnmprvnm = allimgvl1[2];
+            $('#imgnmshow').html(imgnmprvnm);
+          }
+          //----------------------------------------
+          // alert('next'+tsvl)
+        }
+        else if (e.keyCode == '39') {
+          // right arrow
+          galleryNew = $(galleryNav).next()
+          tsvl = tsvl + 1;
+          var m1 = $("#txt_0").val();
+
+          if (m1 != undefined) {
+            if (m1 != null || m1 != "") {
+              var allimgvl_d = m1.split('-')
+              if (tsvl == allimgvl_d[6]) { tsvl = 0; }
+            }
+          }
+          galleryNavigate(galleryNew, 'first', tsvl)
+
+
+          var m = $("#txt_" + tsvl).val();
+          // alert(m)
+          if (m != null || m != "") {
+            var allimgvl;
+            var imgnmprv;
+            var imgnmprv2;
+            if (m != undefined) {
+              allimgvl = m.split('-')
+              imgnmprv = allimgvl[5];
+              imgnmprv2 = allimgvl[7];
+            }
+            else {
+              allimgvl = 0;
+              imgnmprv = '0';
+              imgnmprv2 = '0';
+            }
+            if (imgnmprv2 == "H") { $(".galleryContainer").attr("class", "galleryContainer Horizontal_Image") }
+            else { $(".galleryContainer").attr("class", "galleryContainer Vertical_Image") }
+          }
+          // alert(imgnmprv+","+tsvl)
+          //----------------------------------------
+          var m1 = $("#txt_" + tsvl).val();
+          if (m1 != null || m1 != "") {
+            var allimgvl1;
+            var imgnmprv1;
+            if (m1 != undefined) {
+              allimgvl1 = m1.split('-')
+              imgnmprv1 = allimgvl1[6];
+            }
+            else {
+              allimgvl1 = 0
+              imgnmprv1 = '0'
+            }
+            console.log("cp5" + imgnmprv1);
+            $('#imgcntinner').html((tsvl + 1) + '/' + imgnmprv1);
+            var imgnmprvnm = allimgvl1[2];
+            $('#imgnmshow').html(imgnmprvnm);
+          }
+          //----------------------------------------
+
+
+          if (imgnmprv != "0") {
+            $(".modelveiw").show();
+          } else {
+            $(".modelveiw").hide();
+          }
+          // alert('next'+tsvl)
+        }
+
+      }
+      //----For showing total image and current image
+      setTimeout(function () {
+        var m1 = $("#txt_" + tsvl).val();
+        if (m1 != null || m1 != "") {
+          if (m1 != undefined) {
+            var allimgvl1 = m1.split('-')
+            var imgnmprv1 = allimgvl1[6];
+            // console.log("cp6" + imgnmprv1);
+            $('#imgcntinner').html((tsvl + 1) + '/' + imgnmprv1);
+            var imgnmprvnm = allimgvl1[2];
+            $('#imgnmshow').html(imgnmprvnm);
+          }
+        }
+      }, 500);
+      //----End For showing total image and current image
+    })
+
+    $(document).on('keydown', '*', function (event) {
+      if (event.which == 27) {
+        $(".galleryShadow").hide()
+        $(".galleryModal").attr("style", "transform: scale(0);");
+        tsvl = 0;
+      }
+    })
+
+    $(document).on('click', '.galleryModal', function (e) {
+      if (e.target.className == "galleryModal") {
+        $(".galleryShadow").hide()
+        $(".galleryModal").attr("style", "transform: scale(0);");
+        tsvl = 0;
+      }
+    })
+
+    $(document).on('click', '.viewent', function () {
+      // alert()
+      var m = $("#txt_" + tsvl).val();
+      var allimgvl = m.split('-')
+      var gropid = allimgvl[1];
+      // $(".viewent").href="advanceresultsearch1/24/"+gropid+"/0/0/0"
+      $(".viewent").attr("href", "/advanceresultsearch1/24/" + gropid + "/0/0/0")
+      //"advanceresultsearch1/24/17110/0/0/0"
+    })
+    $(document).on('click', '.viewsimilar', function () {
+      var m = $("#txt_" + tsvl).val();
+      var allimgvl = m.split('-')
+      var imgId = allimgvl[2];
+      var searchkeywrd = '0';
+      $(".viewsimilar").attr("href", "/advancesearchresultViewsimilar/" + imgId + "/" + imgId + "/" + searchkeywrd + "/0/0/0/0/0/0/0/0")
+    })
+
+    $(document).on('click', '.modelveiw', function () {
+      var m = $("#txt_" + tsvl).val();
+      var allimgvl = m.split('-')
+      var imgmodelId = allimgvl[2];
+      // alert(imgmodelId)
+      // $(".viewent").href="advanceresultsearch1/24/"+gropid+"/0/0/0"
+      $(".modelveiw").attr("href", "/advancesearchresult1_modelreleas/" + imgmodelId + "/0")
+      //"advanceresultsearch1/24/17110/0/0/0"
+    })
+
+    $(document).on('click', '.funwishlistpop', function () {
+      if (localStorage.getItem('email') == null) {
+        localStorage.setItem('wishimgid', tsvl)
+      }
+      $(".galleryShadow").hide();
+      $(".galleryModal").attr("style", "transform: scale(0);");
+      if (localStorage.getItem('email') != null && localStorage.getItem('email') != 'bindu@imagesbazaar.com') {
+
+        $("#myModallightbox_btnother").click()
+        $scope.Get_imglisgtUser('0', '1')
+        return
+      }
+      if (localStorage.getItem('email') == 'bindu@imagesbazaar.com') {
+
+        $("#btn_ck").click();
+        $("#myModallightbox_btn").click()
+      }
+      else {
+        $("#txt_crtimgid").val("1")
+        $("#myModalcartlogin_btn").click()
+      }
+    })
+
+    $scope.GetImageList = function () {
+      var objdown = {
+        email: localStorage.getItem('email'),
+      }
+      $http.post('/getImageListRecord', objdown).then(function (res) {
+        $scope.ImageListRecord = res.data
+
+        if ($scope.ImageListRecord.length == 0) {
+          $('#imgloader_dwld').show()
+          setTimeout(() => {
+            window.location.href = "/ImageVideoSubscription"
+          }, 1500);
+        }
+        if ($scope.ImageListRecord.length >= 1) {
+          $('.modalActive').show()
+          setTimeout(function () {
+            $(".rdclick").click()
+            $(".rdclick").prop("checked", true);
+            //  $("#btn_submitdwld").click()
+          }, 400);
+        }
+      })
+    }
+
+    $scope.SetDownloadvl = function (pid, oid) {
+      $("#txt_rdplanid").val(pid)
+      $("#txt_orderid").val(oid)
+    }
+
+    $scope.DownloadImagepack = function () {
+
+      if ($("#txt_rdplanid").val() == "") {
+        alert('Please Select Plan Type!')
+        return
+      }
+
+      var m = $("#txt_" + tsvl).val();
+      if (m != null || m != "") {
+        var allimgvl = m.split('-')
+        var imgnmprv = allimgvl[2];
+
+        var downloadobjec = {
+          orderid: $("#txt_orderid").val(),
+          imgid: imgnmprv,
+          usernmdw: localStorage.getItem('email'),
+          IP: ''
+        }
+        $http.post('/DownloadImageIV', downloadobjec).then(function (res) {
+          //console.log(res.data)
+          $scope.retunmsg = res.data[0].messagereturn
+          window.location.href = "/listimagesvideosubscription?id=" + btoa($("#txt_orderid").val()) + "&msg=" + btoa($scope.retunmsg) + "&imgnm=" + btoa(imgnmprv)
+        })
+      }
+    }
+
+
+    $scope.onNavigate = (imgid, sno, groupId, rank, imgType) => {
+      //s debugger
+      var indvl = (sno / 3)
+      var indvl1 = (sno % 3)
+      // alert(indvl1)
+      //var indvl1=(sno%3)
+
+      //   alert(sno)
+      // return
+
+      var orientation = imgType
+      var priviewUrl = 'https://d3nn873nee648n.cloudfront.net/900x600/' + groupId + '/' + rank + '-' + imgid + '.jpg';
+      localStorage.setItem('orientation', orientation)
+      localStorage.setItem('previewsUrl', priviewUrl)
+      localStorage.setItem('imgid', imgid)
+      var pagesiz = 0;
+      var gid = '0';
+      var ddlNoPeopleprv = '0';
+      var ddlLocationprv2 = '0';
+      var ddlAgeprv = '0';
+      var chkOrientationprv = '0';
+      // /previewImage/SM596725/SM596725/0/0/0/0/2/0/0
+      // //  window.open("/previewImage/" + imgid + "/" + searchky.replace('[', '(').replace(']', ')') + "/" + sno + "/" + pagesiz, "_blank");
+      window.open("/previewImage/" + imgid + "/" + imgid + "/0/0/0/0/6/0/0", "_blank")
+    }
+    $scope.getIPAddress = () => {
+      $http.get('https://api.db-ip.com/v2/free/self').then(function (result) {
+        console.log(result.data.ipAddress);
+        $scope.ipAddress = result.data.ipAddress
+      })
+    }
+    $scope.getIPAddress()
+    $scope.onBannerImg = () => {
+      window.location.assign('https://tiff.imagesbazaar.com/Freeimage121222.Zip')
+      var email = localStorage.getItem('email');
+      if (email == null) {
+        //alert('coming')
+        email = ""
+      }
+      var obj = {
+        email: email,
+        ip: $scope.ipAddress
+      }
+      console.log(obj);
+      // return
+      $http.post('/users/AddBannerImgDetails', obj).then(function (result) {
+        //  alert('INSERTED')
+      })
+    }
+
+
+
+  })
+
+</script>
